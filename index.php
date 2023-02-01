@@ -27,7 +27,7 @@ else {
         }
     }
 
-    elseif ($morpion[0][3]!="0"){
+    if ($morpion[0][3]!="0"){
         if (($morpion[0][3]==($morpion[1][5]))&&($morpion[0][3]==($morpion[2][7]))){
             $victoire = 1;
         }
